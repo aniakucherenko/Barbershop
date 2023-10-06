@@ -26,7 +26,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
 
   <body>
@@ -895,9 +895,7 @@
           </svg>
         </button>
         <!-- title form -->
-        <p class="modal__title centered">
-          Please, leave your contacts and we will call you back!
-        </p>
+        <p class="modal__title centered">Please leave your contacts here!</p>
         <!-- form -->
         <form class="form centered js-speaker-form" autocomplete="off">
           <!-- input name -->
@@ -927,7 +925,7 @@
               pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
               placeholder=" "
             />
-            <label class="modal-form__label" for="tel">Number</label>
+            <label class="modal-form__label" for="tel">Mobile's number</label>
             <svg class="modal-form__icon" width="18" height="18">
               <use href="./img/icons/icons.svg#icon-phone"></use>
             </svg>
@@ -966,7 +964,7 @@
               type="checkbox"
               name="policy"
               id="policy"
-              aria-label="Agreement with the terms of the contract"
+              aria-label="Згода з умовами договору"
               value="true"
             />
             <svg class="policy__icon" width="16" height="15">
@@ -980,7 +978,7 @@
               ></use>
             </svg>
             <label class="policy__label" for="policy">
-              I agree and accept
+              I agree with
               <a href="#" class="policy__link link"> Terms and conditions</a>
             </label>
           </div>
